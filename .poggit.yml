@@ -1,8 +1,11 @@
 --- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/XeonMZ/Job
-build-by-default: true
 branches:
-- main
+  - master
+  - pm4-new
+  - job
+  - Economy
 projects:
   Job:
     path: ""
+    icon: "/assets/icon.png"
 ...
