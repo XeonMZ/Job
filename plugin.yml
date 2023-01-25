@@ -1,0 +1,55 @@
+name: Job
+version: 1.9.9 BETA
+api: 4.0.0
+main: aero\Job\Loader
+author: aero
+website: https://github.com/XeonMZ/Job
+depend: EconomyAPI
+
+commands:
+  job:
+    description:  
+    usage: /job
+    permission: job.command.job
+  retire:
+    description:  
+    usage: /retire
+    permission: job.command.retire
+
+permissions:
+  job.*:
+    description: Allows player to use all commands, all earning ways and join all of the jobs of JobUI plugin
+    default: true
+  job.job.*:
+    description: Allows player to join all of the jobs
+    default: true
+  job.command.job:
+    description: Allows player to use /job
+    default: true
+  job.command.retire:
+    description: Allows player to use /retire
+    default: true
+  job.earn.break:
+    description: Allows player to earn money by a breaking job
+    default: true
+  job.earn.place:
+    description: Allows player to earn money by a placing job
+    default: true
+  job.earn.hunter:
+    description: Allows player to earn money by a killing mobs job
+    default: true
+  job.earn.murderer:
+    description: Allows player to earn money by a killing players job
+    default: true
+  job.progress.break:
+    description: Allows player to increase the job progress by a breaking job
+    default: true
+  job.progress.place:
+    description: Allows player to increase the job progress by a placing job
+    default: true
+  job.progress.hunter:
+    description: Allows player to increase the job progress by a killing mobs job
+    default: true
+  job.progress.murderer:
+    description: Allows player to increase the job progress by a killing players job
+    default: true
