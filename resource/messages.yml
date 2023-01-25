@@ -54,45 +54,45 @@ nojob-message: "§cYou don't have a job yet. First join a job then you'll be abl
 
 
 # Title of the MainUI that appears by "/job" command
-title-mainui: "§bJob"
+title-main: "§bJob"
 # Text that shows the player's job in the MainUI
-myjob-text-mainui: "§aYour Job: §e" # at the end of this text the job will automatically be written
+myjob-text-main: "§aYour Job: §e" # at the end of this text the job will automatically be written
 # Text that shows the player's job in the MainUI
-progress-myjob-text-mainui: "§aProgress of your Job: §e" # at the end of this message the progress of the player's job will automatically be written
+progress-myjob-text-main: "§aProgress of your Job: §e" # at the end of this message the progress of the player's job will automatically be written
 # Text that shows the player's job in the MainUI when the player doesn't have a job
-nojob-text-mainui: "§cYou don't have a job"
+nojob-text-main: "§cYou don't have a job"
 # Text of the JobJoin button in the MainUI
-jobjoin-button-mainui: "§aJoin a Job"
+jobjoin-button-main: "§aJoin a Job"
 # Text of the JobsInfo button in the MainUI
-myjobinfo-button-mainui: "§6My Job Info"
+myjobinfo-button-main: "§6My Job Info"
 # Text of the MyJob button in the MainUI
-myjob-button-mainui: "§dMy Job"
+myjob-button-main: "§dMy Job"
 # Text of the Retire button in the MainUI
-retire-button-mainui: "§cRetire from your Job"
+retire-button-main: "§cRetire from your Job"
 
 
 # Title of the JobsListUI that appears by JobJoin button in the MainUI
-title-jobslistui: "§bJobs List"
+title-jobslist: "§bJobs List"
 # Text that shows a message in JobsListUI 
-text-jobslistui: "§aWhich job do you want to join?"
+text-jobslist: "§aWhich job do you want to join?"
 # Text of the Return to MainUI button in the JobsListUI
-return-to-mainui-button-jobslistui: "§cReturn to the Main Menu"
+return-to-mainui-button-jobslist: "§cReturn to the Main Menu"
 
 
 # Title of the JobsListUI that appears by JobJoin button in the MainUI
-title-jobjoinui: "§bJoin a Job"
+title-jobjoin: "§bJoin a Job"
 # Text of the Join button in the JobJoinUI
-join-button-jobjoinui: "§aJoin the job §e" # at the end of this message the Name of the job will automatically be written
+join-button-jobjoin: "§aJoin the job §e" # at the end of this message the Name of the job will automatically be written
 # Text of the Return to JobsListUI button in the JobJoinUI
-return-to-jobslistui-button-jobjoinui: "§cReturn to the Jobs List"
+return-to-jobslistui-button-jobjoin: "§cReturn to the Jobs List"
 
 
 # Title of the MyJobInfo that appears by JobsInfo button in the MainUI
-title-myjobinfoui: "§bMy Job Info"
+title-myjobinfo: "§bMy Job Info"
 # Text of the MyJobInfo when a player doesn't have a job
-nojob-text-myjobinfoui: "§cYou don't have a job yet. First join a job then you'll be able to know your job info."
+nojob-text-myjobinfo: "§cYou don't have a job yet. First join a job then you'll be able to know your job info."
 # Text of the Exit button in the MyJobInfoUI
-exit-button-myjobinfoui: "§aOkay!"
+exit-button-myjobinfo: "§aOkay!"
 # Text of the Return to MainUI button in the MyJobInfoUI
-return-to-mainui-button-myjobinfoui: "§cReturn to the Main Menu"
+return-to-mainui-button-myjobinfo: "§cReturn to the Main Menu"
 ...
