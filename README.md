@@ -34,26 +34,26 @@ Guest:
     Mine:
       isDefault: true
       permissions:
-      - jobui.job.tree-cutter
-      - jobui.job.miner
-      - jobui.job.tree-cutter-goal
-      - jobui.job.miner-goal
-      - jobui.earn.break
-      - jobui.progress.break
+      - job.job.tree-cutter
+      - job.job.miner
+      - job.job.tree-cutter-goal
+      - job.job.miner-goal
+      - job.earn.break
+      - job.progress.break
     Survival:
       isDefault: true
       permissions:
-      - jobui.job.hunter
-      - jobui.job.hunter-goal
-      - jobui.earn.hunter
-      - jobui.progress.hunter
+      - job.job.hunter
+      - job.job.hunter-goal
+      - job.earn.hunter
+      - job.progress.hunter
     PvP: 
       isDefault: true
       permissions:
-      - jobui.job.murderer
-      - jobui.job.murderer-goal
-      - jobui.earn.murderer
-      - jobui.progress.murderer
+      - job.job.murderer
+      - job.job.murderer-goal
+      - job.earn.murderer
+      - job.progress.murderer
     
 ...
 ```
